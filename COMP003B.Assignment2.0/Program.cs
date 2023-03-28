@@ -19,6 +19,8 @@ namespace COMP003B.Assignment2._0
                 app.UseHsts();
             }
 
+            app.UseWelcomePage("/Welcome");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

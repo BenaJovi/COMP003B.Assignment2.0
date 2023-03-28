@@ -1,0 +1,22 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+	var hobbies = new List<string>()
+	{
+		"Soccer",
+		"Video games",
+		"Eating"
+	};
+
+}
+<div class="text-decoration-underline">
+	<h1 class="display-1">Hobbies</h1>
+</div
+
+@foreach (var item in hobbies)
+{
+	<p>@item</p>
+}
+
+<img src="~/Soccer.jpg"width="400px"></img>
+<img src="~/PS5.jpg"width="400px"></img>
+<img src="~/pizza.jpg"width="400px"></img>
