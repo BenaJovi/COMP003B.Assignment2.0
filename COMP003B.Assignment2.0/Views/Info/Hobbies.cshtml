@@ -1,5 +1,5 @@
 ﻿@{
-	ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Hobbies";
 	var hobbies = new List<string>()
 	{
 		"Soccer",
@@ -9,7 +9,7 @@
 
 }
 <div class="text-decoration-underline">
-	<h1 class="display-1">Hobbies</h1>
+	<h1 class="display-1">@ViewData["title"]</h1>
 </div
 
 @foreach (var item in hobbies)
